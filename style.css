@@ -1,0 +1,131 @@
+body{
+    font-family: "league spartan", system-ui, sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+} */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #fff;
+    background-color: #009879;
+}
+
+.nav > h1 {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.mainDiv{
+    display: flex;
+    /* height: 100vh; */
+    height: 80vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    margin:  30px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.inputDiv input {
+    margin-bottom: 20px;
+    height: 45px;
+    min-width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.inputDiv button{
+    margin-top: 20px;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #009879;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    
+}
+
+.mainTableTag {
+    border: none;
+    border-collapse: collapse;
+    min-width: 700px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.mainTableTag tr th {
+    /* border: 1px solid black;
+    text-align: center;
+    padding: 5px; */
+    text-align: left;
+    color: #fff;
+    /* border-radius: 5px 5px 0 0; */
+    background-color: #009879;
+
+    border: none;
+    /* padding: 15px; */
+}
+
+.mainTableTag th, .mainTableTag td{
+    padding: 12px 15px;
+}
+
+.mainTableTag tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.mainTableTag tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.mainTableTag  tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
